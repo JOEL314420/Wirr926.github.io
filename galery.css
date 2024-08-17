@@ -1,0 +1,53 @@
+.navbar-brand img {
+    height: 60px; 
+    transition: transform 0.3s ease; 
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1); 
+}
+
+.card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    overflow: hidden; 
+    background-color: #fff; 
+    text-align: center; 
+}
+
+.card video {
+    border-radius: 5px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.card video:hover {
+    transform: scale(1.05); 
+}
+
+
+@media (min-width: 768px) {
+    .row > .col-sm-6 {
+        margin-bottom: 30px; 
+    }
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.btn-primary {
+    margin: 5px; 
+}
+
+
+

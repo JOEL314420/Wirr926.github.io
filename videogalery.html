@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEOS</title>
+    <link rel="stylesheet" href="galery.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header class="py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo_web_2.png" alt="Camilo Logo" style="height: 40px;">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link"href="index.html#Nosotros">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link"href="index.html#Servicios">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link"href="index.html#Galeria">Galeria</a></li>
+                        <li class="nav-item"><a class="nav-link"href="index.html#Contacto">Contacto</a></li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+     <div class="container">
+        <div class="row">
+            <div class="col-sm-6 mt-4">
+                <div class="card align-items-center">
+                    <video controls autoplay muted class="w-75 mt-4" source src="video/Efectos basicos by Camilo Salazar.mp4" type="video/mp4"></video>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Efectos basicos por camilo</h5>
+                        <p class="card-text">Efectos basicos de ramping y rayitos de flash (creditos a Joel y Reina)</p>
+                        <button class="btn btn-primary" onclick="meGusta('video1')">me gusta 
+                            <span id="gusta-video1">(0)</span>
+                        </button>
+    
+                        <button class="btn btn-primary" onclick="nomeGusta('video1')">no me gusta
+                            <span id="no-gusta-video1">(0)</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 mt-4">
+                <div class="card align-items-center">
+                    <video controls autoplay muted class="w-75 mt-4" source src="video/head over heels vizualizer by camilo.mp4" type="video/mp4"></video>
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Head Over heels vizualizer</h5>
+                        <p class="card-text">Animación Canción Lyrics</p>
+                        <button class="btn btn-primary" onclick="meGusta('video2')">me gusta 
+                            <span id="gusta-video2">(0)</span>
+                        </button>
+    
+                        <button class="btn btn-primary" onclick="nomeGusta('video2')">no me gusta
+                            <span id="no-gusta-video2">(0)</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 mt-4">
+                <div class="card align-items-center">
+                    <video controls autoplay muted class="w-75 mt-4" source src="video/JUAN CAMILO-SALAZAR-animacionnbolitanporncamilonsalazar___496578fa196f387___.mp4" type="video/mp4"></video>
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Animación Fisicas de bola</h5>
+                        <p class="card-text">Prueba de animar fisicas en MAYA AUTODESK</p>
+                        <button class="btn btn-primary" onclick="meGusta('video3')">me gusta 
+                            <span id="gusta-video3">(0)</span>
+                        </button>
+    
+                        <button class="btn btn-primary" onclick="nomeGusta('video3')">no me gusta
+                            <span id="no-gusta-video3">(0)</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 mt-4">
+                <div class="card align-items-center">
+                    <video controls autoplay muted class="w-75 mt-4" source src="video/JUAN CAMILO-SALAZAR-chillinnaroundntheren___776578f983d5f01___.mp4" type="video/mp4"></video>
+    
+                    <div class="card-body">
+                        <h5 class="card-title">Chilling around there animation</h5>
+                        <p class="card-text">Una animacion stopmotion que hice en conjunto con mis compañeros Joel Silva y Juan Diego Reina</p>
+                        <button class="btn btn-primary" onclick="meGusta('video4')">me gusta 
+                            <span id="gusta-video4">(0)</span>
+                        </button>
+    
+                        <button class="btn btn-primary" onclick="nomeGusta('video4')">no me gusta
+                            <span id="no-gusta-video4">(0)</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="galery.js"></script>
+
+    <footer class="py-4 bg-dark text-white text-center">
+
+        <p>&copy; 2024 CamiFusion. todos los derechos reservados.</p>
+
+    </footer>
+</body>
+</html>
+
+ 
